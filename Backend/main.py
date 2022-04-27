@@ -21,7 +21,7 @@ for i in range(0,100,50):
         track_id.append(t['id'])
         popularity.append(t['popularity'])
 
-print(artist_name)
+# print(artist_name)
 
 AUTH_URL = 'https://accounts.spotify.com/api/token'
 
@@ -34,14 +34,16 @@ auth_response = requests.post(AUTH_URL, {
 
 # convert the response to JSON
 auth_response_data = auth_response.json()
+print(auth_response)
+print(auth_response_data)
 
 # save the access token
 access_token = auth_response_data['access_token']
-print(access_token)
 
 headers = {
-    'Authorization': 'Bearer {token}'.format(token=access_token)
+    'Authorization': f'Bearer {access_token}'
 }
+print(headers)
 
 # base URL of all Spotify API endpoints
 BASE_URL = 'https://api.spotify.com/v1/'
@@ -53,4 +55,3 @@ track_id = '6y0igZArWVi6Iz0rj35c1Y'
 r = requests.get(BASE_URL + 'audio-features/' + track_id, headers=headers)
 
 r = r.json()
-print(r)
