@@ -11,4 +11,3 @@ for data in response.json()['items']:
     else:
         print("pass")
         print()
-
