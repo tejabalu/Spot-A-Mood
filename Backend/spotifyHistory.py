@@ -38,8 +38,8 @@ history = spotify.current_user_recently_played(limit=50)
 # upload to mongodb
 
 print(type(history))
-dbhistory.insert_one(history)
-
+response = dbhistory.insert_one(history)
+print(response.acknowledged)
 
 # _________________________________________________
 # for writing out history into ext file
