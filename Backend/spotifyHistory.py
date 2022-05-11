@@ -5,7 +5,6 @@ import constants
 
 # _________________________________________________
 # initialize mongodb
-from xmlrpc.client import Server
 from pymongo import MongoClient
 from pymongo.server_api import ServerApi
 import certifi
@@ -32,7 +31,6 @@ spotify = spotipy.Spotify(auth=token)
 spotify.current_user_recently_played = types.MethodType(current_user_recently_played, spotify)
 
 history = spotify.current_user_recently_played(limit=50)
-
 
 # _________________________________________________
 # upload to mongodb
