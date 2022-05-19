@@ -10,10 +10,9 @@ export default function Home() {
     <div>
       <h1 className={styles.title}>This is SpotAMood</h1>
       <p className={styles.text}>This is a project where we are able to analyze your mood based on the songs you have listened to</p>
-    <Link href="https://github.com">
+    <Link href="http://spotify.com">
       <a className={styles.btn}>sign-in to spotify</a>
     </Link>
     </div>
   );
 }
-
