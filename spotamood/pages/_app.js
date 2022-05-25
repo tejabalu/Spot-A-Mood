@@ -14,8 +14,8 @@ function MyApp({ Component, pageProps }) {
 	return (
 		<Layout>
 			<Component {...pageProps} />
-			<ApiCharts />
-			<SpotifyAuth />
+			{/* <ApiCharts /> */}
+			{/* <SpotifyAuth /> */}
 		</Layout>
 	);
 }
