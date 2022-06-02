@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { SpotifyContent } from '../content/SpotifyContent'
+import { SpotifyContent } from '../content/SpotifyContent';
 import { useEffect, useState } from 'react';
 import styles from "../styles/Home.module.css";
 
@@ -16,8 +16,7 @@ const redirect_uri = process.env.NODE_ENV === 'production' ? 'http://localhost:3
 // const RESPONSE_TYPE = "token"
 
 export default function Landing() {
-
-    const  connecting  = useContext(SpotifyContent)
+    const   connecting  = useContext( SpotifyContent )
 
     const CLIENT_ID = "4c194a54913b473bb83708683dff2b7e"
     const REDIRECT_URI = "http://localhost:3000"
@@ -34,14 +33,14 @@ export default function Landing() {
                 {/* <div className="text-white text-center pb-5 font-bold text-4xl tracking-wider">
                     SpotAMood
                 </div> */}
-                {connecting 
+                {connecting
                 ? <div className="w-72 flex justify-center bg-transparent border-2 border-white text-white hover:text-black hover:bg-white font-bold tracking-wider uppercase rounded-full px-6 py-3">
                     Loading...
                 </div>
-                : <a href={`${AUTH_ENDPOINT}?client_id=${CLIENT_ID}&response_type=${RESPONSE_TYPE}&redirect_uri=${REDIRECT_URI}&scope=user-read-private%20user-top-read%20playlist-read-private%20playlist-read-collaborative%20user-read-recently-played`}>
+                : <a href={`${AUTH_ENDPOINT}?client_id=${CLIENT_ID}&response_type=${RESPONSE_TYPE}&redirect_uri=${redirect_uri}&scope=user-read-private%20user-top-read%20playlist-read-private%20playlist-read-collaborative%20user-read-recently-played`}>
                     <div className="flex bg-transparent border-2 border-white text-white hover:text-black hover:bg-white font-bold tracking-wider uppercase rounded-full px-6 py-3">
                         <span className="pr-2">
-                        <i class="fab fa-spotify"></i>
+                        <i className="fab fa-spotify"></i>
                         </span>
                         <h2 className={styles.text}>✨Please login✨</h2>
                     </div>

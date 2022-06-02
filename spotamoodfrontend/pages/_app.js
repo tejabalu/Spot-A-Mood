@@ -17,7 +17,7 @@ import dynamic from "next/dynamic";
 
 function MyApp({ Component, pageProps }) {
 	// console.log("MyApp");
-    const  isAuthenticated  = useContext(SpotifyContent)
+    const  isAuthenticated   = useContext(SpotifyContent)
 
 	return (
 		<Layout>

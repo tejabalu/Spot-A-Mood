@@ -79,7 +79,7 @@ function SpotifyProvider({ children }){
     }, [accessToken, error])
 
     return (
-        <SpotifyContext.Provider 
+        <SpotifyContent.Provider 
             value={{ 
                 error,
                 setError,
@@ -96,7 +96,7 @@ function SpotifyProvider({ children }){
                 recentlyPlayed
             }}>
           {children}
-        </SpotifyContext.Provider>
+        </SpotifyContent.Provider>
       )
 }
 
