@@ -84,13 +84,19 @@ export default function Landing() {
 								<i className="fab fa-spotify"></i>
 							</span>
 							<h2 className={styles.text}>✨Please login✨</h2>
-							<button
-								onClick={() => {
-									getRecentlyPlayed();
-								}}
-							>
-								Get Recently Played
-							</button>
+						</div>
+						<div
+							className="flex bg-transparent border-2 border-white text-white hover:text-black hover:bg-white font-bold tracking-wider uppercase rounded-full px-6 py-3"
+							onClick={() => {
+								getRecentlyPlayed();
+							}}
+						>
+							<span className="pr-2">
+								<i className="fab fa-spotify"></i>
+							</span>
+							<h2 className={styles.text}>
+								Get Recently Played Songs
+							</h2>
 						</div>
 					</a>
 				)}

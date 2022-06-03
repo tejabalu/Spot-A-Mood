@@ -1,9 +1,11 @@
 const Footer = () => {
-    return ( 
-        <footer>
-            Copyright 2022 Chuan and Teja
-        </footer>
-    );
-}
+	return (
+		<footer>
+			{/* copyrights */}
+			Copyright &copy; {new Date().getFullYear()} Spotamood. By Chuan and
+			Teja
+		</footer>
+	);
+};
 
 export default Footer;
