@@ -1,49 +1,51 @@
 ,Song ID,Name,Artist,Album Type,Album Name,Played At,Danceability,Energy,Key,Loudness,Speechiness,Acoustics,Instrumentalness,Liveliness,Valance,Tempo
-0,1wnVYFmT4wXCFjCzp1CrAN,Delta,Mumford & Sons,album,Delta,2022-05-19T04:30:25.754Z,0.491,0.411,2,-11.001,0.0456,0.135,0.00252,0.0527,0.185,119.483
-1,45nnoT0BGItsdSGoUciZEt,Only Love,Mumford & Sons,album,Wilder Mind,2022-05-18T06:48:46.978Z,0.288,0.237,9,-11.189,0.0313,0.0454,0.000611,0.116,0.135,160.009
-2,0EAMoD0wiRPFGBRIQv9JAX,Neutron Stars,Epic Mountain,album,"Kurzgesagt, Vol. 6 (Original Motion Picture Soundtrack)",2022-05-18T06:43:07.910Z,0.506,0.609,7,-10.965,0.0315,0.0414,0.898,0.133,0.184,96.982
-3,3PmEzB2ORXmXBx07JY9z66,Optimistic Nihilism,Epic Mountain,album,"Kurzgesagt, Vol. 4 (Original Motion Picture Soundtrack)",2022-05-18T06:36:18.721Z,0.544,0.429,2,-16.308,0.0338,0.597,0.836,0.355,0.0577,120.063
-4,0EAMoD0wiRPFGBRIQv9JAX,Neutron Stars,Epic Mountain,album,"Kurzgesagt, Vol. 6 (Original Motion Picture Soundtrack)",2022-05-18T06:28:01.884Z,0.506,0.609,7,-10.965,0.0315,0.0414,0.898,0.133,0.184,96.982
-5,6bAa1rz1a9t3SKLkos8gG9,The Egg,Epic Mountain,album,"Kurzgesagt, Vol. 6 (Original Motion Picture Soundtrack)",2022-05-18T06:21:12.699Z,0.215,0.0762,4,-16.196,0.0397,0.969,0.932,0.102,0.0349,120.826
-6,7rlCMRioM2TkdhHdnXCpsr,"He’s Soo Cute (From ""Sarileru Neekevvaru"")",Madhu Priya,single,"He’s Soo Cute (From ""Sarileru Neekevvaru"")",2022-05-13T23:45:29.008Z,0.82,0.801,7,-4.897,0.185,0.412,0.000193,0.054,0.963,153.99
-7,4ZUxhQNRCzlh6alqBHPNRC,Saami Saami,Mounika Yadav,single,Pushpa - The Rise,2022-05-13T23:34:12.455Z,0.807,0.773,5,-6.885,0.278,0.359,0.00217,0.303,0.867,139.816
-8,40dF1b3S55REkQudnGiLkW,Ismart Title Song,Anurag Kulkarni,single,Ismart Shankar,2022-05-13T19:41:40.815Z,0.501,0.93,2,-3.424,0.189,0.0947,5.69e-05,0.304,0.736,102.732
-9,4aRL9e0DzH0qGAQMe9MhdK,Amrutha,Thaman S,single,Solo Brathuke So Better (Original Motion Picture Soundtrack),2022-05-13T19:29:48.632Z,0.689,0.855,8,-3.993,0.195,0.165,4.11e-05,0.056,0.818,115.067
-10,5reyXAeNOIusd41ojqfBBq,Sara Sari - Telugu,Anurag Kulkarni,single,Bheeshma,2022-05-13T19:26:19.313Z,0.584,0.727,7,-5.566,0.176,0.335,6.04e-05,0.253,0.544,183.903
-11,07CVvNMGywbXhQRs6E7fbx,"Bad Boy (From ""Saaho"")",Badshah,single,"Bad Boy (From ""Saaho"")",2022-05-13T19:21:03.568Z,0.905,0.85,10,-4.83,0.173,0.203,0.0443,0.0878,0.631,105.027
-12,2B5ovomAAUAZtLGArf4wdw,La La Bheemla,Arun Kaundinya,single,Bheemla Nayak,2022-05-13T19:17:35.092Z,0.503,0.901,0,-3.458,0.338,0.715,0.0,0.316,0.631,79.402
-13,2IbRKQwgiyvXY1yVq8GuA3,"Psycho Saiyaan (From ""Saaho"")",Anirudh Ravichander,single,"Psycho Saiyaan (From ""Saaho"")",2022-05-13T19:15:06.558Z,0.785,0.746,10,-2.672,0.149,0.0916,1.98e-05,0.121,0.864,189.988
-14,1xKzEU01wRyVEHhJvXPTP5,Bullet,Mangli,single,George Reddy (Original Motion Picture Soundtrack),2022-05-13T19:12:18.762Z,0.482,0.88,10,-4.716,0.134,0.354,3.42e-05,0.103,0.898,195.05
-15,0RjQR5QfKREKE9wQki8spV,"Kalaavathi (From ""Sarkaru Vaari Paata"")",Sid Sriram,single,"Kalaavathi (From ""Sarkaru Vaari Paata"") - Single",2022-05-13T19:08:45.846Z,0.392,0.574,5,-5.744,0.0336,0.627,0.0,0.532,0.446,65.528
-16,1C9SYGI40nNYh98gN87Fwr,Nee Kannu Neeli Samudram - Telugu,Javed Ali,single,Uppena,2022-05-11T22:39:03.143Z,0.809,0.665,5,-5.495,0.036,0.469,1.08e-05,0.153,0.959,140.96
-17,7d7BpHIZL65AJNi9FUFCme,Undipova - Telugu,Spoorthi Jithender,single,Savaari,2022-05-11T20:59:12.736Z,0.599,0.51,2,-7.519,0.0255,0.487,0.0,0.217,0.524,96.044
-18,4uXJADmybUHUgycBWFHeq6,Ramuloo Ramulaa - Duet,Anurag Kulkarni,single,Ala Vaikunthapurramuloo,2022-05-11T20:28:56.824Z,0.663,0.913,5,-4.681,0.152,0.415,0.000496,0.158,0.805,187.552
-19,0dnDTvdUco2UbaBjUtPxNS,Buttabomma - Telugu,Armaan Malik,single,Ala Vaikunthapurramuloo,2022-05-11T20:24:51.078Z,0.666,0.644,11,-8.964,0.145,0.753,0.000262,0.124,0.89,115.1
-20,6DFXFqK5PTGqTzTbdj47uV,Leharaayi,Sid Sriram,single,Most Eligible Bachelor,2022-05-11T20:20:53.682Z,0.78,0.608,0,-7.62,0.061,0.245,4.14e-05,0.0947,0.476,91.975
-21,6Z40IRipd6pNcUULY6SXng,"Chitti (From ""Jathi Ratnalu"")",Ram Miriyala,single,"Chitti (From ""Jathi Ratnalu"")",2022-05-11T20:16:48.034Z,0.572,0.679,7,-7.239,0.536,0.246,0.0,0.0835,0.838,208.196
-22,2YmXGUx32C3CUEgcAyHcGf,Srivalli,Devi Sri Prasad,single,Pushpa - The Rise,2022-05-11T20:13:26.029Z,0.82,0.581,4,-5.655,0.0438,0.494,0.0,0.362,0.681,106.965
-23,7mNQwVYgoB3mtjkjCKsbXM,Hoyna Hoyna,Anirudh Ravichander,single,Gang Leader (Original Motion Picture Soundtrack),2022-05-11T20:09:44.368Z,0.713,0.727,6,-7.166,0.0388,0.183,1.22e-06,0.0756,0.515,97.025
-24,50RcuWjfUcoJfWMNegXF0b,"Ee Raathale (From ""Radhe Shyam"")",Yuvan Shankar Raja,single,"Ee Raathale (From ""Radhe Shyam"")",2022-05-11T20:05:11.796Z,0.63,0.528,9,-8.574,0.0311,0.0284,2.63e-06,0.107,0.551,124.0
-25,486AmbPabBmmDMP0HVg5BR,"Sirivennela (From ""Shyam Singha Roy"")",Anurag Kulkarni,single,"Sirivennela (From ""Shyam Singha Roy"") - Single",2022-05-11T19:59:08.813Z,0.504,0.639,8,-10.265,0.0356,0.814,0.00578,0.115,0.764,114.672
-26,0RjQR5QfKREKE9wQki8spV,"Kalaavathi (From ""Sarkaru Vaari Paata"")",Sid Sriram,single,"Kalaavathi (From ""Sarkaru Vaari Paata"") - Single",2022-05-11T19:54:55.266Z,0.392,0.574,5,-5.744,0.0336,0.627,0.0,0.532,0.446,65.528
-27,0RjQR5QfKREKE9wQki8spV,"Kalaavathi (From ""Sarkaru Vaari Paata"")",Sid Sriram,single,"Kalaavathi (From ""Sarkaru Vaari Paata"") - Single",2022-05-11T19:50:57.484Z,0.392,0.574,5,-5.744,0.0336,0.627,0.0,0.532,0.446,65.528
-28,3szxldqiYs7nkvtmooRod8,Oo Antava Oo Oo Antava,Indravathi Chauhan,single,Pushpa - The Rise,2022-05-11T19:39:48.443Z,0.925,0.739,5,-6.724,0.104,0.34,0.0733,0.366,0.508,127.97
-29,4iKGu3xtvm90eBw0EIPWJP,"Naatu Naatu (From ""Rrr"")",Rahul Sipligunj,single,"Naatu Naatu (From ""Rrr"")",2022-05-11T19:36:00.989Z,0.405,0.988,10,-3.843,0.0992,0.355,0.113,0.0815,0.703,160.052
-30,4ZNIkO2j6K2c0Nm8zWXmdn,Tillu Anna DJ Pedithe,Ram Miriyala,single,DJ Tillu,2022-05-11T19:32:25.748Z,0.702,0.663,10,-5.444,0.21,0.149,2.01e-06,0.11,0.28,140.027
-31,1GP0KRgqPjkzG9SGuYZKZA,Bhale Bhale Banjara,Mani Sharma,single,Acharya,2022-05-11T19:29:22.114Z,0.795,0.851,2,-4.053,0.0657,0.113,9.29e-05,0.187,0.918,113.0
-32,0d4ZeWg7NBzA5NnFPn8a89,"Ma Ma Mahesha (From ""Sarkaru Vaari Paata"")",Sri Krishna,single,"Ma Ma Mahesha (From ""Sarkaru Vaari Paata"") - Single",2022-05-11T19:25:02.117Z,0.404,0.89,7,-6.416,0.309,0.524,0.000164,0.139,0.73,74.924
-33,5i4cie6F2AD20KiZ3XxUTq,Snake Eyes,Mumford & Sons,album,Wilder Mind,2022-05-11T04:51:33.218Z,0.371,0.64,9,-9.154,0.0462,0.0126,0.342,0.0939,0.202,180.053
-34,4ma2AbPdsy5ijCyJn16mAv,Monster,Mumford & Sons,album,Wilder Mind,2022-05-11T04:43:26.274Z,0.515,0.418,2,-11.794,0.0361,0.334,0.159,0.107,0.144,143.969
-35,5jD0cNoMXOlITbKC4YxUIR,Just Smoke,Mumford & Sons,album,Wilder Mind,2022-05-11T04:39:29.269Z,0.553,0.766,0,-7.901,0.0621,0.0372,0.861,0.0772,0.347,156.072
-36,3khbaRkdMXpwxd6Ege88gj,Awake My Soul,Mumford & Sons,album,Sigh No More,2022-05-11T04:35:59.702Z,0.351,0.465,2,-10.313,0.0365,0.0481,0.0188,0.0912,0.224,123.75
-37,2vH4MKK6DBky9glWsPMMPN,Hot Gates,Mumford & Sons,album,Wilder Mind,2022-05-11T04:31:44.366Z,0.502,0.378,0,-12.692,0.0308,0.301,0.184,0.081,0.0731,135.81
-38,45nnoT0BGItsdSGoUciZEt,Only Love,Mumford & Sons,album,Wilder Mind,2022-05-11T04:26:56.834Z,0.288,0.237,9,-11.189,0.0313,0.0454,0.000611,0.116,0.135,160.009
-39,3e9dlCDa68YOOJ5kFSiEdp,Ditmas,Mumford & Sons,album,Wilder Mind,2022-05-11T04:22:20.262Z,0.524,0.733,0,-7.39,0.0404,0.0055,0.00654,0.086,0.518,144.037
-40,77R5bi9hfAUKZmu6tjOcxg,Cold Arms,Mumford & Sons,album,Wilder Mind,2022-05-11T04:18:41.882Z,0.47,0.133,11,-13.678,0.0394,0.825,2.03e-06,0.119,0.0463,67.609
-41,7IxVWmdabNVhfLBV3JD0nJ,The Cave,Mumford & Sons,album,Sigh No More,2022-05-11T04:14:54.723Z,0.595,0.506,4,-9.682,0.0388,0.0464,0.000138,0.107,0.346,141.981
-42,6jEvloulrt9iCYW9IXJ2yi,After the Storm,Mumford & Sons,album,Sigh No More,2022-05-11T04:11:17.352Z,0.499,0.16,7,-13.632,0.0362,0.899,3.8e-05,0.106,0.103,77.09
-43,2QIt8RWdk5ZJneKTt4sZnK,Dust Bowl Dance,Mumford & Sons,album,Sigh No More,2022-05-11T04:07:09.274Z,0.413,0.601,5,-8.38,0.0466,0.0562,0.00376,0.354,0.354,116.814
-44,3khbaRkdMXpwxd6Ege88gj,Awake My Soul,Mumford & Sons,album,Sigh No More,2022-05-11T04:01:42.049Z,0.351,0.465,2,-10.313,0.0365,0.0481,0.0188,0.0912,0.224,123.75
-45,4ClTOGZc8kcb8l58Vx5z5A,Ghosts That We Knew,Mumford & Sons,album,Babel (Deluxe Version),2022-05-11T03:55:53.604Z,0.44,0.276,0,-12.151,0.0407,0.552,0.00695,0.112,0.077,79.907
-46,4LngVAmigX4WrBEDfonBlU,Woman,Mumford & Sons,album,Delta,2022-05-11T03:49:52.426Z,0.587,0.514,1,-11.924,0.0394,0.64,0.391,0.11,0.15,156.948
-47,6Yl2Ll3Bc8MqDQg13JinaG,42,Mumford & Sons,album,Delta,2022-05-11T03:45:17.229Z,0.317,0.481,5,-9.572,0.0384,0.203,0.00132,0.139,0.275,175.871
+0,3PPD1wg591kQnsws16mlkS,chances,thuy,album,i hope u see this,2022-05-19T18:30:00.676Z,0.748,0.472,3,-9.15,0.0557,0.0822,0.0,0.0525,0.605,141.93
+1,1FUQZYqWRVL8eaQd7uENlz,Serotonin,Nic D,single,Serotonin,2022-05-19T18:27:12.461Z,0.81,0.497,1,-7.755,0.0647,0.0333,0.0,0.111,0.343,139.988
+2,7es56D0QedGMsK39wl2yFX,Happier Than Ever,ASTN,single,Happier Than Ever,2022-05-19T18:24:41.380Z,0.667,0.457,6,-6.885,0.439,0.341,0.0,0.114,0.266,97.604
+3,0QzuaeCEEOV40Pn7IvKEny,double take,dhruv,album,rapunzel,2022-05-19T18:22:51.615Z,0.656,0.436,8,-11.141,0.0744,0.845,0.0,0.221,0.196,109.239
+4,1YlulsUKDduOmC7WxvXYPW,Painkiller,Ruel,album,Free Time,2022-05-19T18:06:22.700Z,0.683,0.42,5,-6.51,0.0542,0.0875,0.0,0.225,0.469,128.621
+5,5gsJUCSx0w2fO95Ou78Zpu,daisy,Arden Jones,single,age tape 1,2022-05-19T18:02:48.303Z,0.841,0.441,0,-6.416,0.0547,0.87,0.0,0.149,0.457,104.075
+6,56AXSWLp4R6gBqvkaWTuRj,what lovers do,anees,single,what lovers do,2022-05-19T18:01:25.262Z,0.931,0.474,10,-10.17,0.0941,0.172,0.0,0.118,0.672,126.094
+7,4UG2Fm0E98LhE2dlNxiAXx,this is what falling in love feels like,JVKE,single,this is what falling in love feels like,2022-05-19T17:58:49.605Z,0.424,0.438,11,-5.53,0.0553,0.617,0.0,0.0837,0.325,128.983
+8,663vZfMh88Uo2bfTx6wiE4,Pelikula,Janine Teñoso,single,Pelikula,2022-05-19T17:56:48.933Z,0.676,0.259,6,-12.127,0.0598,0.801,2.36e-05,0.115,0.314,75.031
+9,68HocO7fx9z0MgDU0ZPHro,Every Summertime,NIKI,single,Every Summertime,2022-05-19T17:53:23.838Z,0.628,0.676,6,-4.227,0.0424,0.393,6.94e-05,0.0978,0.723,78.996
+10,08MFgEQeVLF37EyZ7jcwLc,Pano,Zack Tabudlo,single,Pano,2022-05-19T17:49:47.688Z,0.375,0.457,3,-7.018,0.0315,0.868,0.0145,0.191,0.415,174.839
+11,6qBFSepqLCuh5tehehc1bd,Like I Want You,Giveon,album,TAKE TIME,2022-05-19T17:45:32.820Z,0.678,0.355,10,-7.757,0.0627,0.759,7.06e-05,0.114,0.438,119.772
+12,769Ld8demNhMgVLAQcjTDn,sun and moon,anees,single,sun and moon,2022-05-19T17:41:11.741Z,0.815,0.442,6,-7.462,0.107,0.457,0.0,0.101,0.706,90.019
+13,37c5GgK7f8QXCwOayKl2Da,Doo Doo Doo,Llunr,single,Doo Doo Doo,2022-05-19T17:38:38.929Z,0.751,0.382,9,-9.097,0.0708,0.109,5.39e-06,0.0833,0.369,90.069
+14,3lUQpvfWFcxZC3RYAVGE7F,I Feel Good,Pink Sweat$,single,I Feel Good,2022-05-19T17:35:52.160Z,0.803,0.75,11,-4.67,0.0551,0.0233,3.87e-05,0.045,0.628,106.0
+15,61Emqg95O9zo1GNOcyxq4Y,For Tonight,Giveon,single,For Tonight,2022-05-19T17:33:35.840Z,0.442,0.517,9,-7.807,0.0548,0.0699,0.0,0.114,0.2,79.867
+16,63bmIgH9sS6sX5Sc7MetGq,Habang Buhay,Zack Tabudlo,album,Episode,2022-05-19T17:30:21.525Z,0.62,0.668,9,-5.719,0.0305,0.088,0.0,0.362,0.183,118.013
+17,458EaCXcB9TRBoJEDVcdcr,Strawberry Skies,Kid Travis,album,Strawberry Skies,2022-05-19T17:26:16.780Z,0.65,0.462,11,-6.587,0.089,0.366,0.0,0.159,0.649,89.887
+18,3KkXRkHbMCARz0aVfEt68P,Sunflower - Spider-Man: Into the Spider-Verse,Post Malone,compilation,Spider-Man: Into the Spider-Verse (Soundtrack From & Inspired by the Motion Picture),2022-05-19T17:23:31.326Z,0.76,0.479,2,-5.574,0.0466,0.556,0.0,0.0703,0.913,89.911
+19,769Ld8demNhMgVLAQcjTDn,sun and moon,anees,single,sun and moon,2022-05-19T17:20:52.641Z,0.815,0.442,6,-7.462,0.107,0.457,0.0,0.101,0.706,90.019
+20,1GaMFbWeBZeSwgyAEr1s4m,altar,Kehlani,album,blue water road,2022-05-19T16:03:32.419Z,0.555,0.851,9,-3.352,0.148,0.0706,0.00495,0.129,0.779,83.909
+21,20jLHaXVhMFjwHs1JPjL4S,more than i should (feat. jessie reyez),Kehlani,album,blue water road,2022-05-19T15:57:02.517Z,0.591,0.597,0,-6.769,0.141,0.186,0.0,0.1,0.552,143.948
+22,3WnGLAKOeutk6CPmWQ0G2i,everything interlude,Kehlani,album,blue water road,2022-05-19T15:53:42.092Z,0.243,0.433,11,-19.136,0.0936,0.976,0.859,0.122,0.226,65.501
+23,0jeCoIGrGhw8lnkd5YF0qB,get me started (feat. syd),Kehlani,album,blue water road,2022-05-19T15:53:06.261Z,0.533,0.442,0,-6.003,0.0537,0.54,6.46e-06,0.104,0.379,108.511
+24,0B3hRuQLvogv6InPAtI31H,up at night (feat. justin bieber),Kehlani,album,blue water road,2022-05-19T15:50:17.147Z,0.563,0.756,0,-3.852,0.0579,0.196,0.0,0.245,0.234,100.012
+25,5v8oHydXFHM1je05EFyIdw,wish i never,Kehlani,album,blue water road,2022-05-19T15:47:15.561Z,0.673,0.844,11,-3.084,0.0392,0.0543,0.0,0.211,0.479,98.021
+26,5NZMLV6AWI3O32RMu4dUg7,shooter interlude,Kehlani,album,blue water road,2022-05-19T15:44:11.414Z,0.415,0.569,10,-6.273,0.043,0.752,1.73e-06,0.613,0.529,86.749
+27,2OqS1qDeZpXDL7VsTq4Fci,any given sunday (feat. blxst),Kehlani,album,blue water road,2022-05-19T15:42:11.707Z,0.723,0.497,7,-8.479,0.153,0.12,0.0,0.104,0.302,98.931
+28,5tDyUiXPUZDIx8nnZvRTMl,little story,Kehlani,album,blue water road,2022-05-19T15:39:26.552Z,0.24,0.376,1,-9.309,0.0413,0.626,1.33e-05,0.114,0.187,81.737
+29,54IbnYEdA3ymfxv07WgN3b,Your Teeth In My Neck,Kali Uchis,album,Isolation,2022-05-19T15:31:16.303Z,0.853,0.604,3,-5.794,0.0511,0.0696,1.65e-06,0.135,0.86,116.0
+30,5HGU08aDQkOjwogqE3SwhG,CYANIDE REMIX (feat. Koffee),Daniel Caesar,single,CYANIDE REMIX (feat. Koffee),2022-05-19T15:28:09.765Z,0.476,0.592,10,-7.252,0.337,0.728,3.06e-06,0.115,0.578,79.68
+31,5JycxhApZmzbA4xSwvqh6k,All To Me,Giveon,album,When It's All Said And Done... Take Time,2022-05-19T15:24:28.554Z,0.523,0.543,5,-8.39,0.156,0.65,0.0,0.257,0.318,116.161
+32,3iqlzKw1tLt6tXZyKWV0fZ,SOMEBODY,keshi,album,GABRIEL,2022-05-19T15:22:19.836Z,0.649,0.461,8,-8.401,0.0449,0.442,0.0,0.108,0.487,141.088
+33,7Bar1kLTmsRmH6FCKKMEyU,Hit Different,SZA,single,Hit Different,2022-05-19T15:19:34.884Z,0.679,0.516,0,-6.371,0.0452,0.199,0.0,0.0965,0.716,120.074
+34,7E01yTzdhlzS4H4rH2k7HH,Naked,Doja Cat,album,Planet Her (Deluxe),2022-05-19T15:16:10.365Z,0.733,0.862,7,-5.736,0.197,0.374,0.00247,0.131,0.536,111.076
+35,6NNvpTzLuBJV7esytJxA4r,Subtle Things,Sabrina Claudio,album,Based On A Feeling,2022-05-19T15:12:27.069Z,0.749,0.427,9,-7.245,0.0766,0.757,0.248,0.114,0.159,138.008
+36,6VFKuuqSbA1GpMEosUgTwQ,Nobody But You,Sonder,single,Nobody But You,2022-05-19T15:09:42.111Z,0.637,0.299,7,-11.314,0.0366,0.742,0.0,0.359,0.364,83.872
+37,105d0lOPEis24ZdvOllxJp,Right Track (feat. Smino),Syd,album,Broken Hearts Club,2022-05-19T15:06:08.638Z,0.806,0.557,9,-6.007,0.0767,0.184,0.0,0.168,0.815,113.033
+38,3uouaAVXpQR3X8RYkJyitQ,CYANIDE,Daniel Caesar,album,CASE STUDY 01,2022-05-19T15:00:08.845Z,0.589,0.652,10,-7.498,0.373,0.704,0.00055,0.125,0.486,158.49
+39,5fQBa4wkmq28xpSLOQ202K,Normal Girl,SZA,album,Ctrl,2022-05-19T14:51:23.636Z,0.624,0.532,0,-7.146,0.124,0.269,5.17e-05,0.158,0.362,76.453
+40,5lAnYvAIkSDNXqfo7DyFUm,Ain't Shit,Doja Cat,album,Planet Her,2022-05-19T14:47:09.508Z,0.855,0.488,3,-4.601,0.208,0.506,0.0,0.347,0.619,124.097
+41,7kPpXYcBqOwUAoRCDoIHm1,Put On Repeat,Sabrina Claudio,album,Based On A Feeling,2022-05-19T14:44:15.361Z,0.48,0.606,5,-5.428,0.035,0.401,0.0248,0.245,0.372,95.128
+42,1DOgkaR5Gqa8JtPEIbQORC,Over,Lucky Daye,single,Over,2022-05-19T14:41:08.302Z,0.677,0.541,6,-6.057,0.0571,0.48,0.0,0.125,0.379,103.369
+43,5uXO1sjZ7VbNKexKaFRna3,Please Do Not Lean (feat. BADBADNOTGOOD),Daniel Caesar,single,Please Do Not Lean,2022-05-19T14:37:42.923Z,0.67,0.41,1,-13.444,0.0381,0.241,8.55e-06,0.167,0.46,127.972
+44,4C79MQWKw9ov99q8AXXBpe,Web,070 Shake,single,Web,2022-05-19T14:33:41.891Z,0.351,0.457,2,-7.456,0.0345,0.557,0.0,0.167,0.164,104.253
+45,6zIen2DYr2t19vbwqgORY2,Scenic Drive (feat. Ari Lennox & Smino),Khalid,album,Scenic Drive (The Tape),2022-05-19T14:31:34.470Z,0.367,0.552,7,-9.109,0.0504,0.0258,0.000217,0.154,0.0778,93.467
+46,68HocO7fx9z0MgDU0ZPHro,Every Summertime,NIKI,single,Every Summertime,2022-05-19T14:27:24.380Z,0.628,0.676,6,-4.227,0.0424,0.393,6.94e-05,0.0978,0.723,78.996
+47,3DarAbFujv6eYNliUTyqtz,Kiss Me More (feat. SZA),Doja Cat,album,Planet Her,2022-05-19T14:23:48.368Z,0.764,0.705,8,-3.463,0.0284,0.259,8.92e-05,0.12,0.781,110.97
+48,2shEeQzAAL3nnOXfB5pJXx,IMPORTED (with 6LACK),Jessie Reyez,album,BEFORE LOVE CAME TO KILL US,2022-05-19T14:20:19.521Z,0.712,0.606,7,-4.262,0.0518,0.246,1.19e-06,0.109,0.329,111.089
+49,3cQmqM0awej9iAESjhKrI9,Confidently Lost,Sabrina Claudio,album,Confidently Lost,2022-05-19T14:16:33.606Z,0.666,0.39,5,-8.575,0.0838,0.272,9.39e-06,0.111,0.325,113.866
