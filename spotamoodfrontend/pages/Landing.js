@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { SpotifyContent } from "../content/SpotifyContent";
 import { useEffect, useState } from "react";
 import styles from "../styles/Home.module.css";
+import axios from "axios";
 
 const redirect_uri =
   process.env.NODE_ENV === "production"
@@ -28,6 +29,11 @@ export default function Landing() {
   const [token, setToken] = useState("");
   console.log("token", token);
 
+  const headers = {
+    Authorization: `Bearer ${token}`,
+    "Content-Type": "application/json",
+  };
+
   useEffect(() => {
     const hash = window.location.hash;
     let token = window.localStorage.getItem("token");
@@ -48,7 +54,29 @@ export default function Landing() {
     return token !== "";
   };
 
-  
+  const [recentlyPlayed, setRecentlyPlayed] = useState();
+
+  const recentlyPlayedTracksReq = axios.get(
+    "https://api.spotify.com/v1/me/player/recently-played",
+    { headers }
+  );
+
+  axios
+    .all([recentlyPlayedTracksReq])
+    .then(
+      axios.spread((...responses) => {
+        setRecentlyPlayed(responses[0].data.items);
+      })
+    )
+    .catch((errors) => {
+      console.log(errors);
+      // trigger error only if the token isn't being refreshed
+      // if (!tokenExpired) {
+      //   setError(true);
+      // }
+    });
+
+  console.log(recentlyPlayed, "recently played");
 
   return (
     <div className="relative h-screen flex justify-center items-center">
