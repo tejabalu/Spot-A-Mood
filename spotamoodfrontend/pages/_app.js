@@ -1,13 +1,13 @@
 import Layout from "../components/layout/Layout";
 import "../styles/globals.css";
 import Landing from "../pages/Landing";
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from "react";
 import { createContext, useContext } from "react";
 
 import { SpotifyContent } from "../content/SpotifyContent";
 
-
 import dynamic from "next/dynamic";
+import SpotifyPlot from "./SpotifyPlot";
 // const ApiCharts = dynamic(() => import("./ApiCharts"), {
 // 	ssr: false,
 // });
@@ -16,15 +16,16 @@ import dynamic from "next/dynamic";
 // });
 
 function MyApp({ Component, pageProps }) {
-	// console.log("MyApp");
-    const  isAuthenticated   = useContext(SpotifyContent)
+  // console.log("MyApp");
+  const isAuthenticated = useContext(SpotifyContent);
 
-	return (
-		<Layout>
-			<Component {...pageProps} />
-            <Landing />
-		</Layout>
-	);
+  return (
+    <Layout>
+      <Component {...pageProps} />
+      <Landing />
+      {/* <SpotifyPlot /> */}
+    </Layout>
+  );
 }
 
 export default MyApp;
