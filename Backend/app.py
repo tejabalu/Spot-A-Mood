@@ -1,4 +1,5 @@
 from flask import Flask, request
+from engine import FrontEndPost
 
 app = Flask(__name__)
 
@@ -6,8 +7,8 @@ app = Flask(__name__)
 @app.route("/", methods=["POST", "GET"])
 def index():
     if request.method == "POST":
-        return "Logging in"
         # logging in
+        return "Logging in"
     else:
-        return "Sending data to front end"
         # sending data to front end
+        FrontEndPost()
