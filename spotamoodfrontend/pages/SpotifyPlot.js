@@ -1,60 +1,136 @@
-import React, { Component } from "react";
+import React, { useEffect, useState } from "react";
 import Plot from "react-plotly.js";
+import axios from "axios";
 
-class SpotifyPlot extends Component {
-  // Sets up the states for loading data
-  constructor(props) {
-    super(props);
-    this.state = { data: [] };
-  }
+const SpotifyPlot = () => {
+  // Set up states for retrieving access token and top tracks
+  const [token, setToken] = useState("");
+  const [tracks, setTracks] = useState([]);
 
-  // Call API upon component mount
-  componentDidMount() {
-    const endpoint = "JSON FILE GOES HERE";
+  // Artist ID from Spotify
+  // const id = '06HL4z0CvFAxyc27GXpf02';
+  // const market = 'US';
 
-    fetch(endpoint)
-      .then((response) => response.json())
-      .then((data) => {
-        this.setState({ data: data });
-      });
-  }
+  useEffect(() => {
+    // Api call for retrieving token
+    axios("https://accounts.spotify.com/api/token", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/x-www-form-urlencoded",
+        Authorization:
+          "Basic " +
+          new Buffer("Your Client ID" + ":" + "Your Client Secret").toString(
+            "base64"
+          ),
+      },
+      data: "grant_type=client_credentials",
+    })
+      .then((tokenresponse) => {
+        console.log(tokenresponse.data.access_token);
+        setToken(tokenresponse.data.access_token);
 
-  // Change data structure
-  transformData(data) {
-    let plot_data = [];
-
-    let x = [];
-    let y = [];
-    data.map((each) => {
-      x.push(each.date_of_interest);
-      y.push(each.case_count);
-    });
-    plot_data["x"] = x;
-    plot_data["y"] = y;
-
-    console.log(plot_data);
-
-    return plot_data;
-  }
-
-  render() {
-    return (
-      <div>
-        <Plot
-          data={[
-            {
-              type: "radar",
-              mode: "lines",
-              x: this.transformData(this.state.data)["x"],
-              y: this.transformData(this.state.data)["y"],
-              marker: { color: "#ed022d" },
+        // Api call for retrieving tracks data
+        axios(
+          `https://api.spotify.com/v1/artists/${id}/top-tracks?market=${market}`,
+          {
+            method: "GET",
+            headers: {
+              "Content-Type": "application/json",
+              Accept: "application/json",
+              Authorization: "Bearer " + tokenresponse.data.access_token,
             },
-          ]}
-          layout={{ width: 1000, height: 500, title: "Covid Case Count" }}
-        />
-      </div>
-    );
+          }
+        )
+          .then((trackresponse) => {
+            console.log(trackresponse.data.tracks);
+            setTracks(trackresponse.data.tracks);
+          })
+          .catch((error) => console.log(error));
+      })
+      .catch((error) => console.log(error));
+  }, []);
+
+  // Transform track data
+  function PopularityByTrack(data) {
+    let plotData = [];
+
+    let names = [];
+    let popularity = [];
+
+    data.map((each) => {
+      names.push(each.name);
+      popularity.push(each.popularity);
+    });
+
+    plotData["names"] = names;
+    plotData["popularity"] = popularity;
+
+    return plotData;
   }
-}
+
+  return (
+    <div>
+      <Plot
+        data={[
+          {
+            type: "radar",
+            x: PopularityByTrack(tracks)["names"],
+            y: PopularityByTrack(tracks)["popularity"],
+            marker: { color: "#03fc6b" },
+          },
+        ]}
+        layout={{
+          width: 1000,
+          height: 600,
+          // title: 'Taylor Swfit Top Tracks'
+          title: "<b>Top Tracks</b> <br> <sub>US Market</sub>",
+          margin: {
+            l: 100,
+            r: 100,
+            b: 150,
+            t: 150,
+            pad: 4,
+          },
+          paper_bgcolor: "#919191",
+          plot_bgcolor: "#919191",
+          font: {
+            family: "Newsreader, serif",
+            size: 20,
+            color: "white",
+          },
+          xaxis: {
+            title: "Name",
+            titlefont: {
+              family: "Arial, sans-serif",
+              size: 12,
+              color: "white",
+            },
+            showticklabels: false,
+            tickfont: {
+              family: "Arial, sans-serif",
+              size: 12,
+              color: "white",
+            },
+          },
+          yaxis: {
+            title: "Popularity",
+            titlefont: {
+              family: "Arial, sans-serif",
+              size: 12,
+              color: "white",
+            },
+            showticklabels: true,
+            tickfont: {
+              family: "Arial, sans-serif",
+              size: 12,
+              color: "white",
+            },
+          },
+          hovermode: "closest",
+        }}
+      />
+    </div>
+  );
+};
 
 export default SpotifyPlot;
